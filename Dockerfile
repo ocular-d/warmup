@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.12
 LABEL maintainer="github.com/ocular-d"
 
 # hadolint ignore=DL3018
