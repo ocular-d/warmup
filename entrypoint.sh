@@ -11,12 +11,12 @@ GREEN=$ESC_SEQ"32;01m"
 
 # wget and cURL
 
+echo -en "$YELLOW"Here we go"$RESET\n"
+echo
 wget -q https://"$DOMAIN"/sitemap.xml --no-cache -O - | grep -E -o "${DOMAIN}[^<]+" | while read -r line;
 do
-  time curl -A 'Cache Warmer' -s -L "$line" > /dev/null 2>&1
   echo -en "$GREEN""$line""$RESET\n"
 done
 echo
-echo -en "$YELLOW"Done - Cache is warmed up"$RESET\n"
+echo -en "$YELLOW"Done "$RESET\n"
 
-# If you have multiple languages add another, e.g. http://$DOMAIN/es/sitemap.xml
