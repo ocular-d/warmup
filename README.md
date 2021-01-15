@@ -31,20 +31,6 @@ docker run -it testthedocs/url-list:0.0.1 example.io
 
 The script will call all URLs listed in your `sitemap.xml` and will output the time and URls.
 
-```shell
-real	0m0.900s
-user	0m0.020s
-sys	0m0.007s
-example.io.com/
-
-real	0m0.868s
-user	0m0.024s
-sys	0m0.006s
-example.io/glossary.html
-
-Done - Cache is warmed up
-```
-
 ## 🤝 Contributing
 
 We are a community effort, and everybody is most welcome to participate!
