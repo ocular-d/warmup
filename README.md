@@ -26,7 +26,7 @@ This script depends on a `sitemap.xml` in the web root, for example *https://exa
 Run the container with
 
 ```shell
-docker run -it testthedocs/warmup:0.0.1 example.io
+docker run -it testthedocs/url-list:0.0.1 example.io
 ```
 
 The script will call all URLs listed in your `sitemap.xml` and will output the time and URls.

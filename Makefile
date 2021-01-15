@@ -9,7 +9,7 @@ RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
 # Name
-NAME = testthedocs/warmup
+NAME = testthedocs/url-list
 # Get version form VERSION
 VERSION := $(shell cat VERSION)
 
